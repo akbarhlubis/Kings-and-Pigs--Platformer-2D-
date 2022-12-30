@@ -94,12 +94,12 @@ animations = [ {
 [sub_resource type="RectangleShape2D" id=17]
 extents = Vector2( 10, 9 )
 
-[node name="KinematicBody2D" type="KinematicBody2D"]
+[node name="Piggy" type="KinematicBody2D"]
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 16 )
 animation = "idle"
-frame = 1
+frame = 4
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
